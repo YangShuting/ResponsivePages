@@ -1,6 +1,19 @@
 <html>
 	<head></head>
+	<script src="js/ejs_production.js" type="text/javascript"></script>
+	<script>
+		var html  = new EJS({url: 'ejs/cleaning.ejs'}).render({ url: 'json/data.json'});
+	</script>
 	<body>
-		This is Responsive page testing.
+		<h1><%= title %></h1>
+		<ul>
+		    <% for(var i=0; i<supplies.length; i++) { %>
+		        <li>
+		            <a href='supplies/<%= supplies[i] %>'>
+		                <%= supplies[i] %>
+		            </a>
+		        </li>
+		    <% } %>
+		</ul>
 	</body>
 </html>
