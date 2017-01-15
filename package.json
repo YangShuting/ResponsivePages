@@ -1,0 +1,19 @@
+{
+  "name": "my-webapp",
+  "version": "0.0.0",
+  "description": "This is an app to pratice nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "yangshuting",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0"
+  }
+}
