@@ -1,0 +1,13 @@
+<% include header.html %>
+<h3>Below are some messages.</h3>
+<ul>
+	<% message.forEach(function(mesg){%>
+    <li><%= mesg.name%> says: <%=mesg.message%></li>
+	<%})%>
+</ul>
+Hello world.
+<div>
+	
+	<a href="/about">About</a>
+</div>
+<% include footer.html %>
