@@ -1,19 +1,22 @@
 {
-  "name": "my-webapp",
-  "version": "0.0.0",
-  "description": "This is an app to pratice nodejs",
-  "main": "app.js",
+  "name": "grunt-example",
+  "version": "0.0.1",
+  "description": "this is only the testing case of install grunt",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "nodejs"
+    "Grunt"
   ],
   "author": "yangshuting",
-  "license": "ISC",
-  "dependencies": {
-    "cookie-parser": "^1.4.3",
-    "ejs": "^2.5.5",
-    "express": "^4.14.0"
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-mkdir": "^1.0.0",
+    "grunt-responsive-images": "^1.10.1"
   }
 }
